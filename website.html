@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+
+        header {
+            background-color: Black;
+            color: #fff;
+            padding: 1em;
+            font-size: large;
+            text-align: center;
+        }
+
+        nav {
+            background-color: orange;
+            color: black;
+            padding: 0.5em;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 30px;
+            margin: 20px;
+            background-color: orange;
+        }
+
+        footer {
+            background-color: orange;
+            color: black;
+            padding: 1em;
+            text-align: center;
+            position: none;
+            bottom: 0;
+            width: 100%;
+        }
+
+        section h1 {
+            size-adjust: 10%;
+        }
+
+        section .fill p {
+            border: 1px bold magenta;
+            background-color: red;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <header>
+        <h1><span style="color: orange;">Jim</span>gussen</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="volunteer">Volunteer</a></li>
+            <li><a href="fill">Fill</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Home Section</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla numquam suscipit fuga ullam, voluptas qui repellendus est cupiditate cumque consequuntur illum dicta. Natus, hic quasi. Provident unde, asperiores atque incidunt nulla repudiandae cupiditate sed ipsum corrupti voluptates vero labore veritatis ipsa saepe alias perspiciatis. Aliquam tenetur adipisci id? Eveniet tempore officiis, saepe enim et mollitia incidunt id culpa temporibus pariatur assumenda fugit ad, rerum minus minima non dolore in natus, facere rem! Tempore, aspernatur fuga, repellendus, eveniet similique doloremque error eius exercitationem velit dignissimos eos consequatur totam! Minus ipsam laudantium unde officiis veritatis consequuntur. Delectus unde iure obcaecati libero omnis.</p>
+        <h1><img src="what.jpeg" alt=""></h1>
+    </section>
+
+    <section id="about">
+        <h2>About Section</h2>
+        <p>Jimgussen is a mercenary group that WILL do anything for money, that is if you have money.</p>
+        <p></p>
+    </section>
+
+    <section id="volunteer">
+        <h2>Volunteering Section</h2>
+        <p>If you wish to join this mercenary group and die for money, you can sign up here. Just write your name and email and we will contact you as fast as possible.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section id="fill">
+        <h2>Fill Section</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum rerum animi provident laboriosam inventore dolores incidunt repudiandae. Repudiandae repellendus nisi perspiciatis! Laboriosam ab quisquam expedita commodi quas numquam dicta sequi rem cum, non quaerat veniam labore? Ab nostrum cupiditate nobis aut reprehenderit incidunt iusto quasi quo. Officia, maxime enim sit dolores, sint voluptatum esse quos neque quae expedita laboriosam. Quam reprehenderit animi non vero neque eum aliquam ut necessitatibus accusantium dignissimos voluptatum inventore molestias architecto, laudantium, vitae ex similique error? Ut delectus sit aspernatur perferendis harum debitis consectetur accusantium, cumque fugiat quo officiis facere ea ad sapiente? Asperiores, id ratione vero ut, dolores libero eum blanditiis excepturi, qui commodi modi. Nam fugit voluptatibus fuga sit placeat id aliquid iusto quod atque aperiam voluptates officiis rerum sapiente, ea sint expedita ab esse quia ut sunt reiciendis dolor qui optio exercitationem! Sequi molestiae natus adipisci doloremque mollitia sunt aut minima, modi tempora.</p>
+        <h1><img src="ey.jpeg" alt=""></h1>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Jimgussen. All rights reserved. (SO COOL 🥵🥵🥵)</p>
+    </footer>
+
+    <script>
+        function submitForm() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            console.log("name: " + name);
+            console.log("email: " + email)
+        }
+    </script>
+
+</body>
+</html>
